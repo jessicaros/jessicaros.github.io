@@ -1,0 +1,182 @@
+.banner {
+    background-image: url(wp\ bunga.jpg); background-repeat: no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: whitesmoke;}
+
+
+    .crop-img {
+        object-fit: cover;
+    }
+
+
+
+    .kartu {
+        margin-left: 2vh;
+        margin-right: 10vh;
+        margin-top: 1vh;
+        width: 350px;
+        padding: 50px;
+        background-color: rgb(189, 212, 255);
+        border-radius: 5px;
+    }
+    
+    .kartu img{
+        width: 200px;
+        border-radius: 50%;
+        object-position: center;
+    }
+    
+    .ucapan {
+        margin-left: 10vh;
+        margin-right: 10vh;
+        margin-top: 1vh;
+        position: absolute;
+        left: 50px;
+        right: 30px;
+        width: 600px;
+        border: 3px solid #73AD21;
+        padding: 10px;
+      }
+
+    
+
+
+      .col-md-3 {
+        background-color:rgb(189, 212, 255)
+        
+      }
+
+      .col-md-3 img{
+        width: 200px;
+        border-radius: 50%;
+        object-position: center;
+    }
+
+.gallery {
+    font-family: Lucida Calligraphy;
+}
+
+.text{
+    font-family: Arial Black;
+}
+    
+    .display-1 {
+        background-color: rgb(248, 210, 210);
+        text-indent: 50px;
+        text-align: center;
+        letter-spacing: 3px;
+        color: rgb(77, 16, 49);
+        font-family: 'Arial Narrow Bold', sans-serif;
+    }
+
+    .Jessica {
+        font-family: Lucida Calligraphy;
+    }
+
+    .tabel {
+        color: rgb(218, 193, 235);
+        table-layout: fixed;
+        font-family: Cooper Black;
+}
+
+.footer {
+    background-color: #fffea8;
+}
+
+.social-buttons {
+	padding: 50px;
+	text-align: center;
+}
+
+/* Wrapper */
+.icon-button {
+	background-color: white;
+	border-radius: 3.6rem;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 2.0rem;
+	height: 3.6rem;
+	line-height: 3.6rem;
+	margin: 0 5px;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	width: 3.6rem;
+}
+
+/* Circle */
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 0;
+}
+.icon-button:hover span {
+	width: 3.6rem;
+	height: 3.6rem;
+	border-radius: 3.6rem;
+	margin: -1.8rem;
+}
+.instagram span {
+	background-color: #e1306c;
+}
+.twitter span {
+	background-color: #1da1f2;
+}
+.spotify span {
+	background-color: #1db954;
+}
+.pinterest-p span {
+	background-color: #bd081c;
+}
+/* Icons */
+.icon-button i {
+	background: none;
+	color: rgb(0, 0, 0);
+	height: 3.6rem;
+	left: 0;
+	line-height: 3.6rem;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 3.6rem;
+	z-index: 10;
+}
+.icon-button .icon-instagram {
+	color: #e1306c;
+}
+.icon-button .icon-twitter {
+	color: #1da1f2;
+}
+.icon-button .icon-spotify {
+	color: #1db954;
+}
+.icon-button .icon-pinterest-p {
+	color: #bd081c;
+}
+.icon-button:hover .icon-instagram,
+.icon-button:hover .icon-twitter,
+.icon-button:hover .icon-spotify
+.icon-button:hover .icon-pinterest-p {
+	color: white;
+}
+
+
+
+
